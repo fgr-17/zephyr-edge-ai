@@ -1,0 +1,10 @@
+services:
+  zephyr-edge-ai:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: zephyr-edge-ai
+    volumes:
+      - .:/workspace
+    stdin_open: true
+    tty: true
