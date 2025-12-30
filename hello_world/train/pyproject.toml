@@ -1,0 +1,14 @@
+[project]
+name = "train"
+version = "0.1.0"
+requires-python = ">=3.8"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ipykernel",
+    "tensorflow==2.4.0",
+    "pandas",
+    "matplotlib",
+    "notebook<7.0",
+]
